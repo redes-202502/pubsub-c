@@ -3,25 +3,25 @@
 ## 1) Instalar WSL y Ubuntu
 
 1. Abre **PowerShell como Administrador** y ejecuta:
-   wsl --install -d Ubuntu
-   Si ya existe: verás ERROR_ALREADY_EXISTS. En ese caso, simplemente abre “Ubuntu” desde el menú inicial o use el comando wsl -d Ubuntu para arrancarlo.
+   'wsl --install -d Ubuntu'
+   Si ya existe: verás 'ERROR_ALREADY_EXISTS'. En ese caso, simplemente abre “Ubuntu” desde el menú inicial o use el comando 'wsl -d Ubuntu' para arrancarlo.
    Verifica WSL2:
-   wsl --status
-   wsl --set-default-version 2
+   'wsl --status'
+   'wsl --set-default-version 2'
 
 2. Abre Ubuntu (primera vez te pedirá crear usuario/clave).
    En la terminal de Ubuntu, ingresa los siguientes comandos:
-   sudo apt update
-   sudo apt install -y build-essential gdb make zip unzip
+   'sudo apt update'
+   'sudo apt install -y build-essential gdb make zip unzip'
 
 ## 2) Abrir proyecto en VS Code - WSL y Compilación
 
 1. En VS Code, instala la extensión **Remote - WSL** y **C/C++**
 
-2. En la barra de búsqueda superior, ingresa '>Open Folder in WSL' y abre la carpeta donde haya descargado el repositorio
+2. En la barra de búsqueda superior, ingresa **'>Open Folder in WSL'** y abre la carpeta donde haya descargado el repositorio
 
 3. En la terminal de VS Code (WSL: Ubuntu), ingresa el siguiente comando para compilar el código:
-   make clean && make
+   'make clean && make'
 
 ## 3) Ejecutar TCP
 
