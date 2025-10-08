@@ -1,4 +1,4 @@
-# Pub/Sub en C (TCP y UDP) — Guía completa para Windows con WSL + VS Code
+# Pub/Sub en C (TCP y UDP) — Guía para VS Code - WSL (Ubuntu)
 
 ## 1) Instalar WSL y Ubuntu
 
